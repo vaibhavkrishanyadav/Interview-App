@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frontpage_layout"
+    tools:context=".MainActivity"
+    android:background="@drawable/sunrise_scenery">
+
+
+    <Button
+        android:id="@+id/bsq"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/sq"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/bdq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bdq"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/dq"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/bsoa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bsq" />
+
+    <Button
+        android:id="@+id/bsoa"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/soa"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/brn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bdq" />
+
+    <Button
+        android:id="@+id/brn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="106dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/rn"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bsoa" />
+</androidx.constraintlayout.widget.ConstraintLayout>

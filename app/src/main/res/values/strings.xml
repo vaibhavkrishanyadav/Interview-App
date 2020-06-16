@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Interview app</string>
+    <string name="sq">Simple Question</string>
+    <string name="dq">Difficult Question</string>
+    <string name="soa">See other apps</string>
+    <string name="rn">Rate Now</string>
+</resources>
